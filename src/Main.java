@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
      String str = "abcdef";
      String[] dividedString = dividedString(str);
-        System.out.println(dividedString[0] + dividedString[1]);
+        System.out.println(dividedString[0] + "  " + dividedString[1]);
     }
     public static String[] dividedString(String str) {
         String[] result = new String[2];
